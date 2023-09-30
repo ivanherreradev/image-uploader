@@ -1,10 +1,11 @@
 import './App.css'
+import Upload from './components/Upload/Upload'
 
 function App () {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Upload/>
+    </>
   )
 }
 
