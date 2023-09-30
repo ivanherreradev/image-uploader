@@ -1,0 +1,67 @@
+.Upload {
+    background-color: #ffffff;
+    height: 470px;
+    width: 405px;
+    box-shadow: 0 4 12 0 #000000 transform(10%);
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Upload h2 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #4f4f4f;
+    font-weight: 500;
+  }
+  
+  .Upload .description {
+    font-size: 10px;
+    line-height: 15px;
+    color: #828282;
+    font-weight: 500;
+  }
+  
+  .Upload .dragDropContainer {
+    height: 255px;
+    margin-bottom: 65px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .Upload .dragDrop {
+    height: 220px;
+    background-color: #f6f8fb;
+    border-radius: 12px;
+    padding: 20px;
+    border: 2px #97bef4;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .Upload p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #bdbdbd;
+  }
+  
+  .Upload button {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    background-color: #2f80ed;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
